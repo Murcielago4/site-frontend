@@ -1,0 +1,47 @@
+.button {
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.button:hover{
+    opacity: 0.8;
+}
+.button:active{
+    background: #3e6ae1;
+    color: #fff;
+}
+header {
+  height: 60px;
+  display: flex;
+  padding: 0 2rem;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #113743;
+  background: #C5001A;
+  border-top: 1px solid #113743;
+}
+
+main {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 1rem;
+  padding-top: 2rem;
+}
+img{
+background-color: white;
+margin-left: 20px;
+}
+.text{
+  text-align: center;
+  font-size: 36px;
+  color: #595f61;
+
+}
