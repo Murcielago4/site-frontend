@@ -1,23 +1,13 @@
-.button {
-    padding: 0.8rem 2rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s;
-    font-weight: bold;
-    margin-right: 1rem;
+@font-face {
+  font-family: 'Kurale';
+  src: url('./fonts/Kurale-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 body {
   font-family: 'Roboto', sans-serif;
 }
 
-.button:hover{
-    opacity: 0.8;
-}
-.button:active{
-    background: #3e6ae1;
-    color: #fff;
-}
 header {
   height: 60px;
   display: flex;
@@ -27,6 +17,9 @@ header {
   border-bottom: 2px solid #113743;
   background: #C5001A;
   border-top: 1px solid #113743;
+  gap: 30px; /* або 20px, як зручно */
+  justify-content: flex-start; /* або center */
+
 }
 
 main {
@@ -44,4 +37,52 @@ margin-left: 20px;
   font-size: 36px;
   color: #595f61;
 
+}
+.hdrbuttons {
+  position: static;
+  font-weight: bold;
+  font-size: 26px;
+  font-family: 'Kurale';
+  color: #C5001A;
+  width: 130px;
+  height: 50px;
+  background-color:#e4e3db ;
+  border-radius: 10px;
+
+  }
+
+
+
+.header-right {
+  position: fixed;
+  right: 50px;
+  display: flex;
+  right: 100PX;
+  gap: 20px;
+}
+
+.social-icons a {
+  color: #e4e3db;
+  margin: 0 5px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #113743;
+}
+
+.cart-icon {
+  position: relative;
+  color: #e4e3db;
+}
+
+.cart-count {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  background-color: red;
+  color: #e4e3db;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 50%;
 }

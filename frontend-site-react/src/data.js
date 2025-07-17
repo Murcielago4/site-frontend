@@ -31,9 +31,9 @@ export const ways = [
     description: 'ОПИС ТОВАРУ .',
   },
     {
-    image: '/secret.jpg',
-    title: 'Хуй резіновий ',
-    description:'Чорний кілометровий',
+    image: '/images.png',
+    title: 'НАЗВА ТОВАРУ',
+    description: 'ОПИС ТОВАРУ .',
   },
     {
     image: '/images.png',
