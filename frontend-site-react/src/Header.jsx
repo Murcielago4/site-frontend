@@ -7,7 +7,7 @@ export default function Header(){
   const navigate = useNavigate();
   return (
      <header>
-        <img src="/logo-name.png" alt="логотип" />
+        <img src="/logo-name (24).png" alt="логотип" style={{width: '220px', marginLeft: '40px'}}/>
         <button className="hdrbuttons" style={{ marginLeft: '200px'}} onClick={() => navigate('/')}>Головна</button>
         <button className="hdrbuttons" onClick={() => navigate('/about')}> Про нас</button>
         <button className="hdrbuttons" onClick={() => navigate('/contact')}> Контакти</button>
